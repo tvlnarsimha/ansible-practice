@@ -1,9 +1,9 @@
-- name: variables from files
+- name: variables from inventory
   hosts: localhost
   vars_files:
   - vars.yaml
   vars:
-    timings: "2000 hrs"
+    timings: "07:15 IST"
   tasks:
   - name: print information
     ansible.builtin.debug:
