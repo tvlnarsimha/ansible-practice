@@ -1,5 +1,5 @@
 - name: variable preference
-  hosts: localhost-2
+  hosts: localhost
   vars:
     WISHES: "Morning from PLAY Variable"
   vars_files:
